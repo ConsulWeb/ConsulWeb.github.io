@@ -1,0 +1,151 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  object-fit: cover; /* Para cubrir el área sin distorsión */
+}
+#img2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Para cubrir el área sin distorsión */
+}
+
+#img3 {
+  position: absolute;
+  top: 2%;
+  left: 9%;
+  width: 8%;
+  height: 14%;
+  object-fit: cover; /* Para cubrir el área sin distorsión */
+  border-radius: 12px;
+}
+#img4 {
+  position: absolute;
+  top: 2%;
+  left: 12%;
+  width: 8%;
+  height: 14%;
+  object-fit: cover; /* Para cubrir el área sin distorsión */
+  border-radius: 12px;
+}
+
+.texto {
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
+.texto2 {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+nav {
+  display: inline-block;
+  text-align: center;
+}
+nav a:hover {
+  background: #86bd4c;
+}
+
+@font-face {
+  font-family: "Blippo Black";
+  src: url("BlippoBlack.ttf");
+}
+#p1 {
+  font-family: "Blippo Black";
+  color: rgb(134, 189, 76);
+  font-size: 400%;
+}
+#p2 {
+  font-family: "Blippo Black";
+  color: #1e323f;
+  font-size: 400%;
+}
+
+#H {
+  font-family: "Blippo Black";
+  color: #dbe4eb;
+  font-size: 120%;
+}
+
+#p3 {
+  color: #f6f7f8;
+  font-size: 130%;
+}
+
+.texto-sobre-imagen {
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  width: 1000px; /* Ancho del contenedor */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+#H {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#titulo {
+    font-family: "Blippo Black" ;
+    font-size: 20px;
+}
+
+#im4 {
+    position: absolute;
+    top: 30%;
+    left: 16%;
+    width: 68%;
+    height: 60%;
+    object-fit: cover; /* Para cubrir el área sin distorsión */
+    border-radius: 12px;
+    opacity: 0.5; /* Cambia este valor según el nivel de transparencia deseado */
+}
+
+
+#t{
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+
+#xyz {
+    -webkit-filter: drop-shadow(10px 10px 1px Black);
+    filter: drop-shadow(10px 10px 0.5px Black);
+} 
+
+#H{
+    border-style: dotted;
+}

@@ -1,0 +1,67 @@
+body {
+    font-family:"Fuentes De Letras/SpaceMono-BoldItalic.ttf";
+    background:-webkit-linear-gradient(top, rgb(134,189,76),#1e323f);
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ffcc00;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+#img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 10%;
+    object-fit: cover; /* Para cubrir el área sin distorsión */
+}
+
+#qx{
+    border-color: #ffffff;
+    border-style: dotted;
+    border-width: 2px 4px 8px 16px;
+    color: #ffcc00;
+    font-size: 50px;
+    
+}
+
+
+#dc{
+    color: #ffcc00;
+    font-size: 50px;
+}

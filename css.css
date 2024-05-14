@@ -1,0 +1,53 @@
+body{
+    background-image:linear-gradient(rgba(5,7,12,0),rgba(5,7,12,0.25)), url("Imagenes/Sitio Web Link en Bio Tecnología y Gaming Sencillo Azul Oscuro.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 100%;
+    
+}
+@font-face{
+    font-family: "Blippo Black";
+    src: url("BlippoBlack.ttf");
+}
+#p1 {
+    font-family: "Blippo Black";
+    color: hsl(89, 46%, 52%);
+    font-size: 400%;
+}
+#p2 {
+    font-family: "Blippo Black";
+    color: #1e323f;
+    font-size: 400%;
+}
+.img {
+    width: 215px;
+    height: 190px;
+    position:fixed;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.menu{
+    font-size: 30px;
+    font-family: "Blippo Black";
+    background: #e8e8e8;
+    list-style: none;
+    padding: 0;
+    background-color:rgba(0, 72, 255, 0.35);
+    width: 501px;
+    margin-inline-start: 800px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #86bd4c;
+}

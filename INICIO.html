@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConsulWeb</title>
+    <link rel="icon" href="Imagenes/image-PhotoRoom.png-PhotoRoom.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="INICIO.css">
+</head>
+
+
+<body>
+    <section>
+
+        <img id="img2" src="Imagenes/fondo blanco degradado.jpg">
+        <img id="img1" src="Imagenes/sobre-un-fondo-negro-rayos-azules.jpg">
+        <img id="img3" src="Imagenes/logo.jpg">
+
+        <div class="texto">
+            <a id="p1">Consul</a><a id="p2">Web</a>
+        </div>
+
+        <div class="texto2">
+            <nav>
+                <a href="INICIO.html" id="p3"><u>Inicio</u></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <a href="NOSOTROS.html" id="p3"> <u>Nosotros</u></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <a href="CURSOS.html" id="p3"> <u>Cursos</u> </a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <a href="CONTACTO.html" id="p3"> <u>Contactos</u> </a>
+            </nav>
+        </div>
+
+        <div class="texto-sobre-imagen">
+            <h1 id="el">EL MEJOR PREUNIVERSITARIO DEL ECUADOR</h1>
+            <p><b>ConsulWeb el mejor preuniversitario del Ecuador se distingue por su dedicación incansable, su pasión
+                    por el aprendizaje y su capacidad para inspirar a otros. Es un estudiante excepcionalmente
+                    talentoso, con un historial académico impresionante y una ética de trabajo ejemplar. Su
+                    determinación y compromiso con la excelencia académica lo han llevado a destacarse no solo en el
+                    ámbito académico, sino también en su comunidad, donde es reconocido por su liderazgo y su espíritu
+                    colaborativo. Es un modelo a seguir para sus compañeros y una fuente constante de inspiración para
+                    quienes lo rodean.</b></p>
+        </div>
+
+
+    </section>
+
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="Imagenes/2.png" alt="Imagen 2">
+        </div>
+        <div class="mySlides">
+            <img src="Imagenes/3.png" alt="Imagen 3">
+        </div>
+        <div class="mySlides">
+            <img src="Imagenes/4.png" alt="Imagen 2">
+        </div>
+        <div class="mySlides">
+            <img src="Imagenes/5.png" alt="Imagen 3">
+        </div>
+    </div>
+    <div class="gif-container">
+        <img src="./Imagenes/chip-591-256-unscreen.gif" alt="GIF" class="gif">
+    </div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var slides = document.getElementsByClassName("mySlides");
+            for (var i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000); 
+        }
+    </script>
+
+</body>
+
+</html>
